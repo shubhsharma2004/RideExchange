@@ -1,0 +1,148 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.arrow-container {
+  margin-bottom: 20px;
+}
+
+.round-button {
+  background-color: #ffd60a;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.round-button a{
+  font-size: 1.5rem;
+}
+.round-button:hover {
+  background-color: #ffc300;
+}
+
+h1 {
+  text-align: center;
+  color: #27187E;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    border-radius: .3rem;
+    text-decoration: none;
+    border: none;
+    background-color: #ffd60a;
+    color: #212529;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffc300;
+}
+
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #333; 
+}
+
+input[type="submit"] {
+  display: inline-block;
+  border-radius: .3rem;
+  text-decoration: none;
+  border: none;
+  background-color: #ffd60a;
+  color: #212529;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffc300;
+}
+
+    select {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      color: #333; 
+      appearance: none; 
+      background-repeat: no-repeat;
+      background-position: calc(100% - 10px) center;
+      background-size: 16px;
+      cursor: pointer;
+    }
+    select:hover {
+      border-color: #999;
+    }
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
